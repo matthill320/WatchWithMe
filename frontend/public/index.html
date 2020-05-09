@@ -39,5 +39,32 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+      <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+      <!-- Add Firebase products that you want to use -->
+      <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyB5urUAgscgci1D6qYwv_-6k-y6F8rgsU4",
+          authDomain: "watchwithme-65567.firebaseapp.com",
+          databaseURL: "https://watchwithme-65567.firebaseio.com",
+          projectId: "watchwithme-65567",
+          storageBucket: "watchwithme-65567.appspot.com",
+          messagingSenderId: "286615533753",
+          appId: "1:286615533753:web:254af34a61ec97b4894368"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Navbar from 'react-bootstrap/Navbar'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,9 +12,9 @@ class App extends React.Component {
         <Navbar bg="dark" expand="lg" variant="dark">
             <Navbar.Brand href="#home"> Watch With Me </Navbar.Brand>
         </Navbar>
-        <article className="content">
-            <h1> Welcome to Watch with Me! </h1>
-        </article>
+        <div className="App-header">
+            <h1> Welcome to WatchWithMe! </h1>
+        </div>
       </div>
     );
   }
